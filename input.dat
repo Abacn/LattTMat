@@ -1,0 +1,10 @@
+modeltype = B # model type. A: ANNNI; B: BNNNI and 3NN; D: DNNI
+dim = 2       # dimensionality. 2 or 3
+axialdir = 6  # indices of the type of boundary condition (see source)
+neigs = 1     # number of eigenvalues been calculated
+savevec = 1 1 # options (1 or 0) to save vectors or computing layer magnetication (or not)
+outfile = 2DYBM  # prefix for output files
+size = 12        # system width L
+J = 0.5          # inverse temperature beta * J 
+kappa = 0.8 0    # kappa1 and kappa2 values
+h = 0            # external field
