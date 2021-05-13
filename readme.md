@@ -52,28 +52,28 @@ For 2D (dim = 2):
 - modeltype support A, B, D for the ANNNI, BNNNI+3NN, and DNNI model, respectively.
 
 - For the ANNNI model, axialdir supports
--- 0: y-double-layer
--- 1: $\perp$-TM, full $2^L \times 2^L$ transfer matrix
--- 2: $\parallel$-TM, full $4^L \times 4^L$ transfer matrix
--- 5: $\perp$-TM, reduced size
--- 6: $\parallel$-TM, reduced size
--- 9: $\perp$-TM, open boundary
--- 13: $\perp$-TM, reduced size, open boundary
--- 17, 18: $\perp$-TM, a pair of additional up-up or up-down spins in each side
--- 19, 20: $\perp$-TM, two pair of additional up-up or up-down spins in each side
+    - 0: y-double-layer
+    - 1: $\perp$-TM, full $2^L \times 2^L$ transfer matrix
+    - 2: $\parallel$-TM, full $4^L \times 4^L$ transfer matrix
+    - 5: $\perp$-TM, reduced size
+    - 6: $\parallel$-TM, reduced size
+    - 9: $\perp$-TM, open boundary
+    - 13: $\perp$-TM, reduced size, open boundary
+    - 17, 18: $\perp$-TM, a pair of additional up-up or up-down spins in each side
+    - 19, 20: $\perp$-TM, two pair of additional up-up or up-down spins in each side
 
 - For the BNNNI/3NN model, axialdir supports
--- 3: $/$-TM, full $2^L \times 2^L$ transfer matrix
--- 6: $\parallel$-TM, reduced size
--- 7: $/$-TM, open boundary
--- 13: $\perp$-TM, reduced size
+    - 3: $/$-TM, full $2^L \times 2^L$ transfer matrix
+    - 6: $\parallel$-TM, reduced size
+    - 7: $/$-TM, open boundary
+    - 13: $\perp$-TM, reduced size
 
 - For the DNNI model, axialdir supports
--- 1: $\perp$-TM, full $2^L \times 2^L$ transfer matrix
--- 2: $\parallel$-TM, full $4^L \times 4^L$ transfer matrix
--- 5: $\perp$-TM, reduced size
--- 6: $\parallel$-TM, reduced size
--- 17, 18: $\perp$-TM, a pair of additional up-up or up-down spins in each side
+    - 1: $\perp$-TM, full $2^L \times 2^L$ transfer matrix
+    - 2: $\parallel$-TM, full $4^L \times 4^L$ transfer matrix
+    - 5: $\perp$-TM, reduced size
+    - 6: $\parallel$-TM, reduced size
+    - 17, 18: $\perp$-TM, a pair of additional up-up or up-down spins in each side
 
 ### Configuration planting
 
