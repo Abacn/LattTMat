@@ -7,8 +7,11 @@ The transfer matrix (TM) method calculate the partition function and correlation
 ## Summary
 
 Language: C++ (std=c++11)
+
 Publications:
 - Yi Hu and Patrick Charbonneau. "Resolving the two-dimensional axial next-nearest-neighbor Ising model using transfer matrices." Physical Review B, 103, 094441 (2021). http://doi.org/10.1103/PhysRevB.103.094441
+
+- Yi Hu and Patrick Charbonneau. "Numerical transfer matrix study of frustrated next-nearest-neighbor Ising models on square lattices." Physical Review B, 104, 144429 (2021). http://doi.org/10.1103/PhysRevB.104.144429
 
 ## File descriptions
 
@@ -95,6 +98,3 @@ It generates an equilibrium configuration, e.g.,
 ```
 
 where 0s are up spins and 1s are down spins.
-
-
-
